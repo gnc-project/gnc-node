@@ -1,6 +1,6 @@
 ## linux服务器一台，开通端口30303 8545 8560
-### 1.执行 gnc/init.shell //初始化节点
-### 2.执行 gnc/start.shell //启动节点
+### 1.执行 gnc/init.sh //初始化节点
+### 2.执行 gnc/start.sh //启动节点
 ### 3.执行 ./gnc attach ./data/geth.ipc 可进入控制台
 ### 4.使用admin.peers命令查看是否连接测试公链节点，若没有手动添加:
 ```go
