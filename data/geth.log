@@ -1,0 +1,93 @@
+INFO [09-10|14:30:21.169] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [09-10|14:30:21.170] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [09-10|14:30:21.172] Starting peer-to-peer node               instance=Geth/v1.9.8-stable-bcce7964/linux-amd64/go1.14.3
+INFO [09-10|14:30:21.172] Allocated trie memory caches             clean=64.00MiB dirty=64.00MiB
+INFO [09-10|14:30:21.172] Allocated cache and file handles         database=/home/ls/production/gnc/data/geth/chaindata cache=128.00MiB handles=524288
+INFO [09-10|14:30:21.211] Opened ancient database                  database=/home/ls/production/gnc/data/geth/chaindata/ancient
+INFO [09-10|14:30:21.211] Initialised chain configuration          config="{ChainID: 37021 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0 Engine: ethash}"
+INFO [09-10|14:30:21.212] Disk storage enabled for ethash caches   dir=/home/ls/production/gnc/data/geth/ethash count=3
+INFO [09-10|14:30:21.212] Disk storage enabled for ethash DAGs     dir=/home/ls/.ethash                         count=2
+INFO [09-10|14:30:21.212] Initialising Ethereum protocol           versions="[64 63]" network=37021 dbversion=<nil>
+WARN [09-10|14:30:21.212] Upgrade blockchain database version      from=<nil> to=7
+INFO [09-10|14:30:21.215] Loaded most recent local header          number=0 hash=9de807…52228d td=48867183456 age=9mo1w3d
+INFO [09-10|14:30:21.215] Loaded most recent local full block      number=0 hash=9de807…52228d td=48867183456 age=9mo1w3d
+INFO [09-10|14:30:21.215] Loaded most recent local fast block      number=0 hash=9de807…52228d td=48867183456 age=9mo1w3d
+INFO [09-10|14:30:21.215] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [09-10|14:30:21.233] New local node record                    seq=1 id=32b18bbbb94e2b98 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [09-10|14:30:21.233] Started P2P networking                   self=enode://2c818dbc7507ecd4f25f7415926cf41fa4d33514e2a67d1c18171be4d470cf43a5d8e44898f053e0c8570e580503b4c77f3b1af5b8118f81590a50faf25febdd@127.0.0.1:30303
+INFO [09-10|14:30:21.236] IPC endpoint opened                      url=/home/ls/production/gnc/data/geth.ipc
+INFO [09-10|14:30:21.237] HTTP endpoint opened                     url=http://0.0.0.0:8545                   cors=* vhosts=*
+INFO [09-10|14:30:21.238] WebSocket endpoint opened                url=ws://[::]:8560
+INFO [09-10|14:30:23.422] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [09-10|14:30:23.434] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [09-10|14:30:24.238] New local node record                    seq=2 id=32b18bbbb94e2b98 ip=<nil>     udp=30303 tcp=30303
+WARN [09-10|14:30:29.413] Served eth_coinbase                      reqid=3 t=44.07µs err="etherbase must be explicitly specified"
+INFO [09-10|14:30:51.233] Block synchronisation started 
+INFO [09-10|14:30:59.961] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.414s mgasps=0.000 number=15 hash=538e01…3fc1d8 age=1d22h56m dirty=13.80KiB
+INFO [09-10|14:31:06.251] Imported new chain segment               blocks=13 txs=0 mgas=0.000 elapsed=6.289s mgasps=0.000 number=28 hash=f4b367…2ad9d1 age=1d22h22m dirty=25.56KiB
+INFO [09-10|14:31:14.620] Imported new chain segment               blocks=15 txs=1 mgas=0.021 elapsed=8.353s mgasps=0.003 number=43 hash=d65515…c96a8f age=1d21h44m dirty=40.31KiB
+INFO [09-10|14:31:23.002] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.382s mgasps=0.000 number=59 hash=cef849…cf3902 age=1d20h53m dirty=55.28KiB
+INFO [09-10|14:31:31.346] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.344s mgasps=0.000 number=75 hash=3e927e…a072cc age=1d19h53m dirty=70.25KiB
+INFO [09-10|14:31:39.712] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.365s mgasps=0.000 number=91 hash=8dae0c…1bc745 age=1d18h54m dirty=85.22KiB
+INFO [09-10|14:31:48.051] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.338s mgasps=0.000 number=107 hash=463cab…6de9fd age=1d17h51m dirty=100.19KiB
+INFO [09-10|14:31:56.398] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.347s mgasps=0.000 number=123 hash=5c1da8…1bdc18 age=1d16h35m dirty=115.15KiB
+INFO [09-10|14:32:04.775] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.376s mgasps=0.000 number=139 hash=8a05a9…774a0b age=1d15h30m dirty=120.19KiB
+INFO [09-10|14:32:13.088] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.313s mgasps=0.000 number=155 hash=6ea519…f32bc7 age=1d14h30m dirty=120.71KiB
+INFO [09-10|14:32:21.424] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.336s mgasps=0.000 number=171 hash=2bd88e…560673 age=1d13h37m dirty=120.77KiB
+INFO [09-10|14:32:29.769] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.345s mgasps=0.000 number=187 hash=288c7e…e33171 age=1d12h46m dirty=120.80KiB
+INFO [09-10|14:32:38.126] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.357s mgasps=0.000 number=203 hash=ee059e…5b009b age=1d11h47m dirty=120.83KiB
+INFO [09-10|14:32:40.698] Setting new local account                address=GNC7d4ed9084A364424d1087d26C4Ef092EAfB0b395
+INFO [09-10|14:32:40.698] Submitted transaction                    fullhash=0x8b4ea536cc5abefabb20093540e079570841204201a52993ce157fd9e6e7e7be recipient=GNC30095Bb2A16CC8f4b897F511D2B62Fb8a0c2F0ec
+INFO [09-10|14:32:46.595] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.468s mgasps=0.000 number=219 hash=817dd2…8a40c9 age=1d10h22m dirty=120.86KiB
+WARN [09-10|14:32:48.717] Served eth_coinbase                      reqid=3 t=34.711µs err="etherbase must be explicitly specified"
+INFO [09-10|14:32:55.077] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.481s mgasps=0.000 number=235 hash=75b770…3fda1d age=1d9h34m  dirty=120.89KiB
+INFO [09-10|14:33:03.102] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.025s mgasps=0.000 number=250 hash=b9b05c…c56aff age=1d8h36m  dirty=120.92KiB
+INFO [09-10|14:33:11.137] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.034s mgasps=0.000 number=265 hash=69718c…c9f5df age=1d7h30m  dirty=120.95KiB
+INFO [09-10|14:33:19.661] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.523s mgasps=0.000 number=281 hash=95fbc6…443b19 age=1d6h22m  dirty=120.98KiB
+INFO [09-10|14:33:28.190] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.529s mgasps=0.000 number=297 hash=ecd083…be6621 age=1d5h25m  dirty=121.00KiB
+INFO [09-10|14:33:36.197] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.006s mgasps=0.000 number=312 hash=57693a…77dfc8 age=1d4h33m  dirty=121.01KiB
+INFO [09-10|14:33:44.247] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.049s mgasps=0.000 number=327 hash=c6e61e…606f9b age=1d4h8m   dirty=121.03KiB
+INFO [09-10|14:33:52.247] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.000s mgasps=0.000 number=342 hash=38d826…cec1b6 age=1d2h59m  dirty=121.04KiB
+INFO [09-10|14:34:00.249] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.001s mgasps=0.000 number=357 hash=7e54df…42986e age=1d1h32m  dirty=121.06KiB
+INFO [09-10|14:34:08.290] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.041s mgasps=0.000 number=372 hash=2d1dbb…078db4 age=1d44m50s dirty=121.07KiB
+INFO [09-10|14:34:16.341] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.050s mgasps=0.000 number=387 hash=a1163e…b8113e age=23h17m33s dirty=121.08KiB
+INFO [09-10|14:34:24.809] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.468s mgasps=0.000 number=403 hash=de3d6a…c5a5ec age=22h30m35s dirty=121.08KiB
+INFO [09-10|14:34:33.318] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.509s mgasps=0.000 number=419 hash=e3b8ad…614aa4 age=21h48m49s dirty=121.08KiB
+INFO [09-10|14:34:41.819] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.500s mgasps=0.000 number=435 hash=343736…d4198b age=21h5m7s   dirty=121.08KiB
+INFO [09-10|14:34:49.843] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.024s mgasps=0.000 number=450 hash=785e66…385ae5 age=19h43m9s  dirty=121.08KiB
+INFO [09-10|14:34:58.379] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.535s mgasps=0.000 number=466 hash=a4fe64…88ac59 age=18h57m8s  dirty=121.08KiB
+INFO [09-10|14:35:06.913] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.534s mgasps=0.000 number=482 hash=0f539c…dae53c age=17h43m5s  dirty=121.08KiB
+INFO [09-10|14:35:14.966] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.053s mgasps=0.000 number=497 hash=6dc8d0…7c1c2a age=16h50m13s dirty=121.08KiB
+INFO [09-10|14:35:22.994] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.027s mgasps=0.000 number=512 hash=8c2671…c4f54a age=15h34m56s dirty=121.08KiB
+INFO [09-10|14:35:31.050] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.056s mgasps=0.000 number=527 hash=993d8f…9f784e age=14h49m44s dirty=121.08KiB
+INFO [09-10|14:35:39.585] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.534s mgasps=0.000 number=543 hash=3d03db…fcf0d3 age=13h41m57s dirty=121.08KiB
+INFO [09-10|14:35:48.099] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.514s mgasps=0.000 number=559 hash=8ec1cb…930ef6 age=12h51m31s dirty=121.08KiB
+INFO [09-10|14:35:56.118] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.019s mgasps=0.000 number=574 hash=fb9531…1442fd age=11h56m13s dirty=121.08KiB
+INFO [09-10|14:36:04.154] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.035s mgasps=0.000 number=589 hash=fcca59…9662f5 age=10h29m    dirty=121.08KiB
+INFO [09-10|14:36:12.206] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.051s mgasps=0.000 number=604 hash=9d34fb…15f07f age=9h35m8s   dirty=121.08KiB
+INFO [09-10|14:36:20.235] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.029s mgasps=0.000 number=619 hash=b53e28…06582d age=8h47m11s  dirty=121.08KiB
+INFO [09-10|14:36:28.269] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.033s mgasps=0.000 number=634 hash=f56a93…d11c7e age=7h55m8s   dirty=121.08KiB
+INFO [09-10|14:36:36.294] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.024s mgasps=0.000 number=649 hash=8d7913…2ff81b age=7h6m56s   dirty=121.08KiB
+INFO [09-10|14:36:44.361] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.066s mgasps=0.000 number=664 hash=85ae94…3a3974 age=5h54m44s  dirty=121.08KiB
+INFO [09-10|14:36:52.892] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.531s mgasps=0.000 number=680 hash=06b2ce…3cecaa age=4h39m31s  dirty=121.08KiB
+INFO [09-10|14:37:01.407] Imported new chain segment               blocks=16 txs=0 mgas=0.000 elapsed=8.515s mgasps=0.000 number=696 hash=abdef5…93ace0 age=4h3m40s   dirty=121.08KiB
+INFO [09-10|14:37:09.436] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.028s mgasps=0.000 number=711 hash=2381eb…c5f8b2 age=2h47m37s  dirty=121.08KiB
+INFO [09-10|14:37:17.459] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.023s mgasps=0.000 number=726 hash=fcf00c…db399c age=1h36m55s  dirty=121.08KiB
+INFO [09-10|14:37:25.466] Imported new chain segment               blocks=15 txs=0 mgas=0.000 elapsed=8.007s mgasps=0.000 number=741 hash=efb656…e3c9a2 age=56m38s    dirty=121.08KiB
+INFO [09-10|14:37:31.906] Imported new chain segment               blocks=13 txs=1 mgas=0.021 elapsed=6.439s mgasps=0.003 number=754 hash=00eb1c…dbc349 age=13m2s     dirty=122.04KiB
+INFO [09-10|14:37:34.547] Imported new chain segment               blocks=5  txs=0 mgas=0.000 elapsed=2.639s mgasps=0.000 number=759 hash=ce26c6…f5582b dirty=122.04KiB
+INFO [09-10|14:37:56.446] Submitted transaction                    fullhash=0x049c92278966d2e55b93b7cbc4437bdb9a85894255d1ef16606ab8b46a0d0dd2 recipient=GNC30095Bb2A16CC8f4b897F511D2B62Fb8a0c2F0ec
+INFO [09-10|14:39:27.377] Got interrupt, shutting down... 
+INFO [09-10|14:39:27.378] WebSocket endpoint closed                url=ws://0.0.0.0:8560
+INFO [09-10|14:39:27.378] HTTP endpoint closed                     url=http://0.0.0.0:8545
+INFO [09-10|14:39:27.378] IPC endpoint closed                      url=/home/ls/production/gnc/data/geth.ipc
+INFO [09-10|14:39:27.378] Writing cached state to disk             block=759 hash=ce26c6…f5582b root=2516e4…5119e4
+INFO [09-10|14:39:27.379] Persisted trie from memory database      nodes=9 size=1.53KiB time=413.875µs gcnodes=1893 gcsize=413.31KiB gctime=6.401515ms livenodes=384 livesize=83.76KiB
+INFO [09-10|14:39:27.379] Writing cached state to disk             block=758 hash=7b853a…5cf119 root=f26b62…cbe26a
+INFO [09-10|14:39:27.379] Persisted trie from memory database      nodes=3 size=673.00B time=123.129µs gcnodes=0    gcsize=0.00B     gctime=0s         livenodes=381 livesize=83.10KiB
+INFO [09-10|14:39:27.379] Writing cached state to disk             block=632 hash=30016c…3e5aca root=723ebe…c8048b
+INFO [09-10|14:39:27.379] Persisted trie from memory database      nodes=5 size=971.00B time=163.217µs gcnodes=0    gcsize=0.00B     gctime=0s         livenodes=376 livesize=82.15KiB
+INFO [09-10|14:39:27.382] Blockchain manager stopped 
+INFO [09-10|14:39:27.382] Stopping Ethereum protocol 
+INFO [09-10|14:39:27.382] Ethereum protocol stopped 
+INFO [09-10|14:39:27.382] Transaction pool stopped 
